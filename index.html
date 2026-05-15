@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Built with Love in Boston</title>
+    <meta
+      name="description"
+      content="Support, FAQs, troubleshooting, and privacy information for EverSince."
+    >
+    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img class="brand-mark" src="assets/app-icon.png" alt="" aria-hidden="true">
+        <span>Built with ❤️ in Boston</span>
+      </a>
+      <nav class="site-nav" aria-label="Support navigation">
+        <a href="#help">Help</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Help for the moments you keep.</h1>
+          <p>
+            EverSince is a private, local-first app for tracking how many days
+            have passed since meaningful events. This page covers common tasks,
+            local storage, troubleshooting, and how to contact support.
+          </p>
+          <a class="button" href="mailto:contact@absessive.com">Contact Support</a>
+          <p class="support-note">
+            Support email: <strong>contact@absessive.com</strong>
+          </p>
+        </div>
+        <div class="app-card" aria-label="Example EverSince event summary">
+          <div class="app-card-header">
+            <span>Personal</span>
+            <span>Today</span>
+          </div>
+          <div class="counter-row">
+            <span class="counter">128</span>
+            <span class="counter-label">days since</span>
+          </div>
+          <h2>Started morning walks</h2>
+          <p>Since Jan 8, 2026</p>
+        </div>
+      </section>
+
+      <section class="notice" aria-labelledby="account-heading">
+        <h2 id="account-heading">No EverSince account required</h2>
+        <p>
+          EverSince does not use a separate email and password login. On iOS,
+          the first release stores your moments locally on your device. The app
+          continues to work offline without a network connection.
+        </p>
+      </section>
+
+      <section id="help" class="section">
+        <div class="section-heading">
+          <h2>Common Tasks</h2>
+          <p>Quick help for creating, changing, and organizing moments.</p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item">
+            <h3>How do I add a moment?</h3>
+            <p>
+              Open EverSince and choose the add button. Enter a title, choose
+              the date the moment happened, select a group, and save. New
+              moments appear in the event list with their day count.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>How do I edit a moment?</h3>
+            <p>
+              Tap a moment from the list to open its detail view, then choose
+              Edit. You can update the title, date, group, icon, color, or notes
+              when those fields are available.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>How do I delete a moment?</h3>
+            <p>
+              Open the moment detail view and choose Delete. EverSince asks for
+              confirmation before removing a moment so accidental deletes are
+              less likely.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>How do groups work?</h3>
+            <p>
+              Groups organize moments into types like Personal, Entertainment,
+              Work, Health, Travel, or custom groups you create. A group can
+              provide the default icon and color for moments inside it.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>How do I add or edit a custom group?</h3>
+            <p>
+              In the group picker or group management area, choose the option to
+              create a custom group. Add a name and icon, then save. To change a
+              custom group later, open group management and edit the group.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>What is included?</h3>
+            <p>
+              The first release includes unlimited moments and custom groups.
+              There are no account screens in this version.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <h2>Local and Offline Use</h2>
+          <p>
+            EverSince is designed to be local-first. You can create and view
+            moments without a network connection. In this first release, your
+            EverSince data stays on your device.
+          </p>
+        </div>
+        <div class="soft-panel">
+          <h3>Good to know</h3>
+          <ul>
+            <li>No custom EverSince backend account is required.</li>
+            <li>No Firebase, Supabase, or third-party auth provider is used.</li>
+            <li>Your moments remain available while offline.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="troubleshooting" class="section">
+        <div class="section-heading">
+          <h2>Troubleshooting</h2>
+          <p>Try these steps before contacting support.</p>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span class="step-number">1</span>
+            <h3>Check storage access</h3>
+            <p>
+              Confirm that EverSince is installed normally and has not been
+              removed or offloaded from the device.
+            </p>
+          </article>
+          <article>
+            <span class="step-number">2</span>
+            <h3>Check the selected group</h3>
+            <p>
+              If a moment looks missing, switch the group filter back to All to
+              make sure it is not hidden by the current group selection.
+            </p>
+          </article>
+          <article>
+            <span class="step-number">3</span>
+            <h3>Restart the app</h3>
+            <p>
+              Close and reopen EverSince if a count, group, or sync message does
+              not look current.
+            </p>
+          </article>
+          <article>
+            <span class="step-number">4</span>
+            <h3>Send details</h3>
+            <p>
+              If the issue continues, email support with your
+              device model, iOS version, EverSince version, and a short
+              description of what happened.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with ❤️ in Boston. Copyright 2026 absessive.com</p>
+      <p>
+        <a href="mailto:contact@absessive.com">contact@absessive.com</a>
+        <span aria-hidden="true">·</span>
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html>

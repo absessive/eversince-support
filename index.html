@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Built with Love in Boston</title>
+    <title>EverSince Support</title>
     <meta
       name="description"
       content="Support, FAQs, troubleshooting, and privacy information for EverSince."
     >
-    <link rel="icon" type="image/png" href="assets/app-icon.png">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="shortcut icon" href="favicon.ico?v=20260529">
+    <link rel="icon" href="favicon.ico?v=20260529" sizes="32x32">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=20260529">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="assets/app-icon.png?v=20260529">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=20260529">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Home">
         <img class="brand-mark" src="assets/app-icon.png" alt="" aria-hidden="true">
-        <span>Built with ❤️ in Boston</span>
+        <span class="wordmark"><span>Ever</span><span>Since</span></span>
       </a>
       <nav class="site-nav" aria-label="Support navigation">
         <a href="#help">Help</a>
@@ -28,29 +31,26 @@
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <h1>Help for the moments you keep.</h1>
+          <p class="eyebrow">Support</p>
+          <h1><span>Ever</span><span>Since</span></h1>
           <p>
-            EverSince is a private, local-first app for tracking how many days
-            have passed since moments worth remembering. This page covers
-            common tasks, local storage, troubleshooting, and how to contact
+            EverSince is a private, local-first app for tracking days since,
+            days until, and daily streaks. This page covers common tasks,
+            local storage, reminders, troubleshooting, and how to contact
             support.
           </p>
-          <a class="button" href="mailto:contact@absessive.com">Contact Support</a>
-          <p class="support-note">
-            Support email: <strong>contact@absessive.com</strong>
-          </p>
+          <div class="hero-actions">
+            <a class="button" href="mailto:contact@absessive.com?subject=EverSince%20support">Contact Support</a>
+            <a class="button button-secondary" href="privacy.html">Privacy</a>
+          </div>
+          <p class="support-note">Support email: <strong>contact@absessive.com</strong></p>
         </div>
-        <div class="app-card" aria-label="Example EverSince event summary">
-          <div class="app-card-header">
-            <span>Personal</span>
-            <span>Today</span>
-          </div>
-          <div class="counter-row">
-            <span class="counter">128</span>
-            <span class="counter-label">days since</span>
-          </div>
-          <h2>Started morning walks</h2>
-          <p>Since Jan 8, 2026</p>
+        <div class="phone-frame">
+          <img
+            class="app-preview-image"
+            src="assets/app-preview.png"
+            alt="EverSince iOS app showing the Moments tab with the current EverSince wordmark, empty-state card, and bottom tab bar."
+          >
         </div>
       </section>
 
@@ -58,8 +58,9 @@
         <h2 id="account-heading">No EverSince account required</h2>
         <p>
           EverSince does not use a separate email and password login. On iOS,
-          the current release stores your moments locally on your iPhone. The
-          app continues to work offline without a network connection.
+          the current release stores your moments, categories, and streaks
+          locally on your iPhone. The app continues to work offline without a
+          network connection.
         </p>
       </section>
 
@@ -74,8 +75,8 @@
             <h3>How do I add a moment?</h3>
             <p>
               Open EverSince and choose the add button. Enter a title, choose
-              the date the moment happened, select a group, and save. New
-              moments appear in the event list with their day count.
+              Days Since or Days Until, choose the date, select a category, and
+              save. New moments appear in the event list with their day count.
             </p>
           </article>
 
@@ -83,8 +84,8 @@
             <h3>How do I edit a moment?</h3>
             <p>
               Tap a moment from the list to open its detail view, then choose
-              Edit. You can update the title, date, or group, then save the
-              updated moment.
+              Edit. You can update the title, date, category, or direction,
+              then save the updated moment.
             </p>
           </article>
 
@@ -102,32 +103,44 @@
             <p>
               Open a moment detail view and choose Reset to Today. EverSince can
               ask for confirmation before changing the original date, and you
-              can show that warning again from Help & About.
+              can show that warning again from Help &amp; About.
             </p>
           </article>
 
           <article class="faq-item">
-            <h3>How do groups work?</h3>
+            <h3>How do categories work?</h3>
             <p>
-              Groups organize moments into types like Personal, Entertainment,
-              Work, Health, Travel, or custom groups you create. A group can
-              provide the default icon and color for moments inside it.
+              Categories organize moments and streaks into types like Personal,
+              Entertainment, Work, Health, Travel, or custom categories you
+              create. A category can provide the default icon and color for
+              items inside it.
             </p>
           </article>
 
           <article class="faq-item">
-            <h3>How do I add or edit a custom group?</h3>
+            <h3>How do I add or edit a category?</h3>
             <p>
-              In Manage Groups, choose the option to create a custom group. Add
-              a name, icon, and color, then save. Built-in groups stay
-              available, and custom groups can be deleted later.
+              In Manage Categories, choose the option to create a custom
+              category. Add a name, icon, and color, then save. Built-in
+              categories stay available, and custom categories can be deleted
+              later.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>How do streaks work?</h3>
+            <p>
+              Use the Streaks tab to track habits you want to keep active.
+              Check in when you complete a streak, restart inactive streaks,
+              and optionally enable daily reminder notifications.
             </p>
           </article>
 
           <article class="faq-item">
             <h3>What is included?</h3>
             <p>
-              The current release includes unlimited moments and custom groups.
+              The current release includes moments, Days Until, streaks,
+              reminders, categories, appearance settings, and Help &amp; About.
               There are no account screens in this version.
             </p>
           </article>
@@ -147,9 +160,8 @@
           <h3>Good to know</h3>
           <ul>
             <li>No custom EverSince backend account is required.</li>
-            <li>No Firebase, Supabase, or third-party auth provider is used.</li>
-            <li>Your moments remain available while offline.</li>
-            <li>Help & About shows your app version and access status.</li>
+            <li>Your moments, categories, and streaks remain available while offline.</li>
+            <li>Help &amp; About shows your app version and access status.</li>
           </ul>
         </div>
       </section>
@@ -166,22 +178,23 @@
             <h3>Check storage access</h3>
             <p>
               Confirm that EverSince is installed normally and has not been
-              removed or offloaded from the device.
+              removed or offloaded from the device. Reinstalling can remove
+              local app data that has not been backed up by iOS.
             </p>
           </article>
           <article>
             <span class="step-number">2</span>
-            <h3>Check the selected group</h3>
+            <h3>Check filters and tabs</h3>
             <p>
-              If a moment looks missing, switch the group filter back to All to
-              make sure it is not hidden by the current group selection.
+              If an item looks missing, switch back to All and confirm whether
+              you are viewing Moments or Streaks.
             </p>
           </article>
           <article>
             <span class="step-number">3</span>
             <h3>Restart the app</h3>
             <p>
-              Close and reopen EverSince if a count, group, or setting does not
+              Close and reopen EverSince if a count, category, or setting does not
               look current.
             </p>
           </article>
@@ -199,9 +212,9 @@
     </main>
 
     <footer class="site-footer">
-      <p>Built with ❤️ in Boston. Copyright 2026 absessive.com</p>
+      <p>EverSince. Copyright 2026 absessive.com</p>
       <p>
-        <a href="mailto:contact@absessive.com">contact@absessive.com</a>
+        <a href="mailto:contact@absessive.com?subject=EverSince%20support">contact@absessive.com</a>
         <span aria-hidden="true">·</span>
         <a href="privacy.html">Privacy Policy</a>
       </p>

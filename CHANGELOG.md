@@ -8,6 +8,23 @@ This project follows the spirit of [Keep a Changelog](https://keepachangelog.com
 
 - No unreleased changes yet.
 
+## [0.0.2] - 2026-05-29
+
+### Changed
+
+- Updated the support and privacy pages for EverSince moments, Days Until,
+  streaks, reminder notifications, categories, and appearance settings.
+- Removed overly technical provider-specific wording from the offline support
+  notes.
+- Updated support email links to prefill the subject as "EverSince support".
+- Restyled the support site with EverSince/Aurelglyph-aligned branding, tokens,
+  navigation, app preview, cards, and footer copy.
+- Replaced the support site icon with the current EverSince app icon.
+- Added root, PNG, and Apple touch favicon assets for browsers that cache tab
+  icons aggressively.
+- Replaced the hand-built app mock with the current 0.0.2 EverSince App Store
+  Moments screenshot.
+
 ## [1.0.1] - 2026-05-15
 
 ### Changed

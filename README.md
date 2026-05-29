@@ -1,4 +1,4 @@
-# Built with Love in Boston
+# EverSince Support
 
 Static GitHub Pages support site for EverSince.
 
@@ -9,6 +9,9 @@ Static GitHub Pages support site for EverSince.
 - `privacy.html` - Privacy policy for first App Store submission with no
   analytics, no ads, no third-party SDKs, and no custom backend.
 - `styles.css` - Shared visual styling.
+- `assets/` - App icon, favicon PNG, Apple touch icon, and iOS app preview
+  image.
+- `favicon.ico` - Root browser favicon for clients that request `/favicon.ico`.
 
 ## Support Contact
 
@@ -20,8 +23,8 @@ This site is static and deployable from the repository root.
 
 1. Create a new GitHub repository for the support site, or use an existing
    GitHub Pages repository.
-2. Copy `index.html`, `privacy.html`, `styles.css`, and this `README.md` into
-   the repository root.
+2. Copy `index.html`, `privacy.html`, `styles.css`, `favicon.ico`, `assets/`,
+   and this `README.md` into the repository root.
 3. Commit and push the files.
 4. In GitHub, open the repository settings.
 5. Go to **Pages**.

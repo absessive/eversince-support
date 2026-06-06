@@ -5,9 +5,9 @@ Static GitHub Pages support site for EverSince.
 ## Files
 
 - `index.html` - Support homepage with contact information, common tasks,
-  local-first notes, offline behavior, and troubleshooting.
-- `privacy.html` - Privacy policy for first App Store submission with no
-  analytics, no ads, no third-party SDKs, and no custom backend.
+  local-first notes, iCloud sync, offline behavior, limits, and troubleshooting.
+- `privacy.html` - Privacy policy with no analytics, no ads, no third-party
+  SDKs, no custom backend, and iCloud sync disclosure.
 - `styles.css` - Shared visual styling.
 - `assets/` - App icon, favicon PNG, Apple touch icon, and iOS app preview
   image.

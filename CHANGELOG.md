@@ -8,6 +8,18 @@ This project follows the spirit of [Keep a Changelog](https://keepachangelog.com
 
 - No unreleased changes yet.
 
+## [0.0.3] - 2026-06-06
+
+### Changed
+
+- Updated support copy for iCloud sync through the device Apple ID, offline
+  local-first behavior, and Help & About sync status.
+- Added current release limits for 5 total moments and streaks, 2 custom
+  categories, and 1 MB of estimated iCloud sync data.
+- Updated streak, category, iPhone/iPad, and included-feature wording to match
+  the EverSince 0.0.3 release.
+- Updated the privacy policy effective date and iCloud/CloudKit sync disclosure.
+
 ## [0.0.2] - 2026-05-29
 
 ### Changed
